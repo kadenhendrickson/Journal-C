@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		DCD1C4132293099500367AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C4122293099500367AEC /* AppDelegate.m */; };
-		DCD1C4162293099500367AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C4152293099500367AEC /* ViewController.m */; };
 		DCD1C4192293099500367AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD1C4172293099500367AEC /* Main.storyboard */; };
 		DCD1C41B2293099500367AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD1C41A2293099500367AEC /* Assets.xcassets */; };
 		DCD1C41E2293099500367AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD1C41C2293099500367AEC /* LaunchScreen.storyboard */; };
 		DCD1C4212293099500367AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C4202293099500367AEC /* main.m */; };
+		DCD1C42A22930BD100367AEC /* KHESong.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C42922930BD100367AEC /* KHESong.m */; };
+		DCD1C42D22930C3200367AEC /* KHEPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C42C22930C3200367AEC /* KHEPlaylist.m */; };
+		DCD1C431229316B800367AEC /* KHEPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C430229316B800367AEC /* KHEPlaylistController.m */; };
+		DCD1C4362293225600367AEC /* KHEPlaylistListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C4352293225600367AEC /* KHEPlaylistListTableViewController.m */; };
+		DCD1C4392293227000367AEC /* KHESongListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1C4382293227000367AEC /* KHESongListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCD1C40E2293099400367AEC /* Playlist-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD1C4112293099400367AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCD1C4122293099500367AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCD1C4142293099500367AEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCD1C4152293099500367AEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DCD1C4182293099500367AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD1C41A2293099500367AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD1C41D2293099500367AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCD1C41F2293099500367AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD1C4202293099500367AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCD1C42822930BD100367AEC /* KHESong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHESong.h; sourceTree = "<group>"; };
+		DCD1C42922930BD100367AEC /* KHESong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHESong.m; sourceTree = "<group>"; };
+		DCD1C42B22930C3200367AEC /* KHEPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHEPlaylist.h; sourceTree = "<group>"; };
+		DCD1C42C22930C3200367AEC /* KHEPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHEPlaylist.m; sourceTree = "<group>"; };
+		DCD1C42F229316B800367AEC /* KHEPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHEPlaylistController.h; sourceTree = "<group>"; };
+		DCD1C430229316B800367AEC /* KHEPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHEPlaylistController.m; sourceTree = "<group>"; };
+		DCD1C4342293225600367AEC /* KHEPlaylistListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHEPlaylistListTableViewController.h; sourceTree = "<group>"; };
+		DCD1C4352293225600367AEC /* KHEPlaylistListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHEPlaylistListTableViewController.m; sourceTree = "<group>"; };
+		DCD1C4372293227000367AEC /* KHESongListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHESongListTableViewController.h; sourceTree = "<group>"; };
+		DCD1C4382293227000367AEC /* KHESongListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHESongListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				DCD1C4102293099400367AEC /* Playlist-C */,
+				DCD1C42722930A9A00367AEC /* Resources */,
 				DCD1C40F2293099400367AEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,15 +73,62 @@
 			children = (
 				DCD1C4112293099400367AEC /* AppDelegate.h */,
 				DCD1C4122293099500367AEC /* AppDelegate.m */,
-				DCD1C4142293099500367AEC /* ViewController.h */,
-				DCD1C4152293099500367AEC /* ViewController.m */,
 				DCD1C4172293099500367AEC /* Main.storyboard */,
+				DCD1C42E22930C4000367AEC /* Models */,
+				DCD1C432229316BC00367AEC /* Controllers */,
+			);
+			path = "Playlist-C";
+			sourceTree = "<group>";
+		};
+		DCD1C42722930A9A00367AEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				DCD1C41A2293099500367AEC /* Assets.xcassets */,
 				DCD1C41C2293099500367AEC /* LaunchScreen.storyboard */,
 				DCD1C41F2293099500367AEC /* Info.plist */,
 				DCD1C4202293099500367AEC /* main.m */,
 			);
-			path = "Playlist-C";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCD1C42E22930C4000367AEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1C42822930BD100367AEC /* KHESong.h */,
+				DCD1C42922930BD100367AEC /* KHESong.m */,
+				DCD1C42B22930C3200367AEC /* KHEPlaylist.h */,
+				DCD1C42C22930C3200367AEC /* KHEPlaylist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCD1C432229316BC00367AEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1C4332293224300367AEC /* ModelControllers */,
+				DCD1C43A2293227600367AEC /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCD1C4332293224300367AEC /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1C42F229316B800367AEC /* KHEPlaylistController.h */,
+				DCD1C430229316B800367AEC /* KHEPlaylistController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		DCD1C43A2293227600367AEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1C4342293225600367AEC /* KHEPlaylistListTableViewController.h */,
+				DCD1C4352293225600367AEC /* KHEPlaylistListTableViewController.m */,
+				DCD1C4372293227000367AEC /* KHESongListTableViewController.h */,
+				DCD1C4382293227000367AEC /* KHESongListTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +157,7 @@
 		DCD1C4062293099400367AEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KHE;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = DevMountain;
 				TargetAttributes = {
@@ -141,9 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD1C4162293099500367AEC /* ViewController.m in Sources */,
+				DCD1C42A22930BD100367AEC /* KHESong.m in Sources */,
 				DCD1C4212293099500367AEC /* main.m in Sources */,
+				DCD1C4362293225600367AEC /* KHEPlaylistListTableViewController.m in Sources */,
+				DCD1C42D22930C3200367AEC /* KHEPlaylist.m in Sources */,
+				DCD1C431229316B800367AEC /* KHEPlaylistController.m in Sources */,
 				DCD1C4132293099500367AEC /* AppDelegate.m in Sources */,
+				DCD1C4392293227000367AEC /* KHESongListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DT6NQCY8FM;
-				INFOPLIST_FILE = "Playlist-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DT6NQCY8FM;
-				INFOPLIST_FILE = "Playlist-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
